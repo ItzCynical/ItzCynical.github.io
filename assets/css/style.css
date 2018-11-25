@@ -86,8 +86,9 @@ nav {
 }
 
 .menu .menu-item {
+	text-decoration:none;
 	font-family:serif;
-	color:#000;
+	color:black;
 	font-size:25px;
 	display:inline-block;
 	padding:10px;
@@ -387,6 +388,11 @@ footer {
 	padding:20px;
 	font-weight:10;
 	text-decoration: none;
+}
+
+footer h5 a {
+	text-decoration:none;
+	color:black;
 }
 
 footer h5 a:hover{
