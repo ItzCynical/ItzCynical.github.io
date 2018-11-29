@@ -9,13 +9,13 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<!--
+	
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
-	-->
+	
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!--<script src="assets/slick/slick.min.js"></script>-->
+	<script src="assets/slick/slick.min.js"></script>
 	<script type="text/javascript" src="assets/js/index.js"></script>
 </head>
 <body>
@@ -56,11 +56,45 @@
 	</div>
 </nav>
 
-<section style = "background-color:white; padding:20px 0;">
+<section class = "projects">
 	<div class = "container">
-		<h1 style = "font-size:2em;"><i class = "fa fa-wrench fa-3x"></i> Currently Still Under Construction. </h1> 
-	</div>
+		<h1 class = "project-title">&middot; Jetpacks, Zombies, & Seagulls &middot;</h1>
+		<span class = "longbar" style="background-color: #6face2;"></span>
 
+		<div class="slideshow">
+			<div><img src="assets/images/gamejam/zombiegame.png"></div>
+			<div><img src="assets/images/gamejam/zombies.png"></div>
+			<div><img src="assets/images/gamejam/zombieshop.png"></div>
+		</div>
+		<span class = "longbar" style="background-color: #6face2;"></span>
+	</div>
+</section>
+
+<section class = "project-details">
+	<div class = "container">
+		<div class = "row">
+			<div class = "icon-section blue-border col-4">
+				<i class = "fa fa-book fa-6x"></i>
+				<h2>Skills Applied</h2>
+				<ul class = "skills-list">
+					<li><span>Unity</span></li>
+					<li><span>C#</span></li>
+					<li><span>GitHub</span></li>
+				</ul>
+			</div>
+
+			<div class = "icon-section project-contributions col-8">
+				
+				<h2><i class = "fa fa-id-badge fa-3x"></i>Personal Contributions</h2>
+				<ul class = "skills-list contributions">
+					<li>Primarily focused on player behavior: orthogonal movement and vertical jetpack movement along with applying power-ups to the player's base stats.</li>
+					<li>Secondary focus was spawning obstacles (enemies and buildings) along with a chunk loading system that only spawned buildings in the direction the player was headed to, despawning the other chunks after a certain range.</li>
+					<li>Also wrote simple enemy behavior scripts that had seagulls and zombies target player and move to him when within certain range.</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
 </section>
 
 <footer>
