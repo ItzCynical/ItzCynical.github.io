@@ -5,18 +5,18 @@
 	<meta name="description" content="First website">
 	<meta name= "author" content="Knowname">
 	<meta name="keywords" content="building first website">
-	<title>Xavier Chua | Home</title>
+	<title>Xavier Chua | Left or Right</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	
-	<link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="/assets/slick/slick.min.js"></script>
-	<script type="text/javascript" src="/assets/js/index.js"></script>
+	<script src="assets/slick/slick.min.js"></script>
+	<script src="assets/js/index.js"></script>
 </head>
 <body>
 
@@ -56,11 +56,53 @@
 	</div>
 </nav>
 
-<section style = "background-color:white; padding:20px 0;">
+<section class = "projects">
 	<div class = "container">
-		<h1 style = "font-size:2em;"><i class = "fa fa-wrench fa-3x"></i> Currently Still Under Construction. </h1> 
-	</div>
+		<h1 class = "project-title">&middot; Left or Right &middot;</h1>
+		<span class = "longbar" style="background-color: #6face2;"></span>
 
+		<div class="slideshow">
+			<div><img src="assets/images/leftright/botmessages.jpg"></div>
+			<div><img src="assets/images/leftright/leftorright.png"></div>
+		</div>
+		<span class = "longbar" style="background-color: #6face2;"></span>
+	</div>
+</section>
+
+<section class = "project-details">
+	<div class = "container">
+		<div class = "row">
+			<div class = "icon-section blue-border col-4">
+				<i class = "fa fa-newspaper fa-6x"></i>
+				<h2>Project Overview</h2>
+			</div>
+			<div class = "icon-section col-8" style="text-align:left;">
+				<h2>Left or Right was our group's project for VGDC from Fall 2016 - March 2017. The idea of the game was an interactive story driven game that centered the interaction through phones. We set up a gmail account and Google voice number that allows players to message it to start the game/receive texts back that would tell the story. We had several command words that would allow the players to inspect certain objects described in the text messages and multiple rooms the player could traverse.</h2>
+			</div>
+		</div>
+		<span class = "longbar" style="background-color: #6face2;"></span>
+
+		<div class = "row">
+			<div class = "icon-section blue-border col-4">
+				<i class = "fa fa-book fa-6x"></i>
+				<h2>Skills Applied</h2>
+				<ul class = "skills-list">
+					<li><span>Javascript</span></li>
+					<li><span>Google Voice</span></li>
+					<li><span>Google API</span></li>
+				</ul>
+			</div>
+
+			<div class = "icon-section project-contributions col-8">
+				
+				<h2><i class = "fa fa-id-badge fa-3x"></i>Personal Contributions</h2>
+				<ul class = "skills-list contributions">
+					<li>Utilized google scripts to pull text messages received via Google voice and map them to a spreasheet that served as a database of player progress in the story.</li>
+					<li>Divided the rooms of the game into separate functions each containing responses to key words found in player's messages.</li>			
+				</ul>
+			</div>
+		</div>
+	</div>
 </section>
 
 <footer>
